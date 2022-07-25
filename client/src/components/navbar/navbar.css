@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    position: relative;
 }
 .logo{
     font-weight: bold;
@@ -41,6 +42,27 @@
     position: absolute;
     top: -5px;
     right: -5px;
-    
+}
 
+.notifications{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.notification{
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nButtom{
+  width: 80%;
+  padding: 5px; 
+  margin-top: 10px; 
 }
